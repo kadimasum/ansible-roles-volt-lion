@@ -1,0 +1,8 @@
+---
+# tasks file for start-ntp
+
+- name: Start ntp
+  service:
+    name: ntpd
+    state: started
+    enabled: yes

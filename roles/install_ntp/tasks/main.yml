@@ -1,0 +1,6 @@
+---
+# tasks file for install_ntp
+- name: Install NTP(For time synchronization)
+  yum:
+    name: ntp 
+    state: present
